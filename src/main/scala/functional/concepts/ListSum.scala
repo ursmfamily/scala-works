@@ -1,5 +1,5 @@
 object ListSum {
-  def main(args: Array[String]) {
+  def main(args: Array[String]) : Unit = {
     val numList = List(3, 5, 8, 7)
     println("Imperative total: " + sumImp(numList))
     println("Declarative total: " + sumDec(numList))
